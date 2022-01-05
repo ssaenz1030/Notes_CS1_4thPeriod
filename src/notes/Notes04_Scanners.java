@@ -36,9 +36,12 @@ public class Notes04_Scanners {
 		
 		
 		System.out.print("What's your favorite condoment? ");
-		String userPreference = inKey.nextLine();
+		String userPreference = inKey.nextLine();  //grabs the entire line
 		System.out.println(userPreference);
 		
+		System.out.print("enter a word ");
+		String word = inKey.next(); //grabs up to a space
+		System.out.println(word + 7);
 		
 		
 		System.out.print("How old are you? ");
@@ -50,7 +53,8 @@ public class Notes04_Scanners {
 		
 		
 		
-		
+		int age = inKey.nextInt(); //assume user types 4
+		String word1 =inKey.next();  //assume user types "happy"
 		
 		
 		
