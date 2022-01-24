@@ -56,7 +56,7 @@ public class Notes05_printf {
 		//Add commas to large numbers
 		System.out.printf("%,d\n", z);  	//add commas to int
 		System.out.printf("%,f\n", c);  	//add commas to double
-		System.out.printf("%,.2f\n\n", c);  	//add commas and round to 100ths 
+		System.out.printf("words %,.2f words\n\n", c);  	//add commas and round to 100ths 
 		
 		
 		//width precision
