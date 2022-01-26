@@ -26,7 +26,7 @@ import java.util.Scanner;
  * 
  */
 
-public class Lab11_For_Loops {
+public class Notes12_For_Loops {
 
 	public static void main(String[] args) {
 
