@@ -26,7 +26,7 @@ import java.util.Scanner;
  * 
  */
 
-public class Lab11_For_Loops {
+public class Notes12_For_Loops {
 
 	public static void main(String[] args) {
 
@@ -72,12 +72,12 @@ public class Lab11_For_Loops {
 		
 		boolean isPrime = true;
 		
-		if (input == 1 || input < 1) {
+		if (input <= 1) {
 			isPrime = false;
 		}
 		
 		//use for loop to divide it by EVERYTHING less that itself
-		for (int i = 2; i < input / 2; i++) {
+		for (int i = 2; i <= input / 2; i++) {
 			
 			//check if input is divisible by i
 			if (input % i == 0) {
